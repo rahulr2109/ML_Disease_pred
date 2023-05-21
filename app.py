@@ -23,7 +23,8 @@ with st.sidebar:
                            'Heart Disease Prediction',
                            'Parkinsons Prediction'],
                           icons=['activity','heart','person'],
-                          default_index=0)
+                          default_index=0,
+                          orientation='horizontal')
     
     
 # Diabetes Prediction Page
